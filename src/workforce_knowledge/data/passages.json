@@ -1,0 +1,18 @@
+[
+ {"id":"roster.publish","scope":"public","title":"Publish a roster","text":"Publish the roster from Schedule after every shift has an assigned team. Publishing sends a notification to scheduled staff."},
+ {"id":"roster.draft","scope":"public","title":"Save a draft roster","text":"Save draft stores an unpublished schedule. Employees continue to see the last published roster until a planner publishes a revision."},
+ {"id":"swap.approval","scope":"public","title":"Approve a shift swap","text":"A shift swap requires supervisor approval after both employees accept the exchange. The existing assignments stay in place until approval."},
+ {"id":"swap.cancel","scope":"public","title":"Withdraw a swap request","text":"An employee can withdraw a pending swap from My Requests. An approved swap requires a planner to change the assignments."},
+ {"id":"leave.balance","scope":"public","title":"View leave balance","text":"Open Leave and choose Balance to see the current annual allowance and approved deductions. Pending requests appear separately."},
+ {"id":"leave.withdraw","scope":"public","title":"Withdraw leave","text":"Open the leave request and select Withdraw while approval is pending. Ask a supervisor to amend an approved absence."},
+ {"id":"clock.offline","scope":"public","title":"Offline clock entries","text":"The terminal queues offline clock entries. Queued entries synchronize after network connectivity returns."},
+ {"id":"clock.correction","scope":"public","title":"Correct a missed clock entry","text":"Submit a time correction for a missed clock entry with the actual start or finish time. A supervisor reviews the correction."},
+ {"id":"export.cutoff","scope":"public","title":"Payroll export cutoff","text":"The payroll export includes approved entries through the cutoff date. Late approvals enter the following export."},
+ {"id":"export.repeat","scope":"public","title":"Repeat an export","text":"Download a previous payroll export from Export History using its batch identifier. Reusing the identifier preserves the original export."},
+ {"id":"staff.activation","scope":"public","title":"Activate a staff account","text":"A new staff member activates an account through the invitation email. A planner can resend an expired invitation from Team Settings."},
+ {"id":"staff.locale","scope":"public","title":"Change display language","text":"Open Personal Settings and choose Display Language. The preference applies only to the signed-in employee."},
+ {"id":"internal.reconcile","scope":"support","title":"Reconcile delayed terminal batches","text":"Support analysts reconcile delayed terminal batches by comparing the receipt sequence with the ingestion journal before replay."},
+ {"id":"internal.freeze","scope":"support","title":"Freeze a payroll connector","text":"A support supervisor can freeze the payroll connector after an integrity alarm. Record the incident identifier before resuming delivery."},
+ {"id":"internal.reindex","scope":"support","title":"Rebuild the search index","text":"Support can rebuild the search index against the approved catalog revision. Verify the source count after indexing."},
+ {"id":"plan.lock","scope":"public","title":"Locked planning period","text":"A locked planning period prevents further roster edits. A planner requests an unlock from the scheduling supervisor."}
+]
