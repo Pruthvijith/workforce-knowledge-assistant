@@ -7,7 +7,7 @@ name = "workforce-knowledge-assistant"
 version = "0.1.0"
 requires-python = ">=3.12,<3.13"
 description = "Workforce manual retrieval, scoped evidence and offline evaluations"
-dependencies = ["httpx==0.28.1", "fastapi==0.141.1", "uvicorn==0.52.1", "pydantic==2.13.4"]
+dependencies = ["httpx==0.28.1", "fastapi==0.141.1", "uvicorn==0.54.0", "pydantic==2.13.4"]
 
 [project.optional-dependencies]
 dev = ["pyflakes==3.4.0"]
