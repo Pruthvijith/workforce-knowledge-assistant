@@ -10,7 +10,7 @@ description = "Workforce manual retrieval, scoped evidence and offline evaluatio
 dependencies = ["httpx==0.28.1", "fastapi==0.141.1", "uvicorn==0.52.1", "pydantic==2.13.4"]
 
 [project.optional-dependencies]
-dev = ["pyflakes==3.4.0"]
+dev = ["pyflakes==4.1.0"]
 
 [project.scripts]
 knowledge-eval = "workforce_knowledge.evaluate:main"
