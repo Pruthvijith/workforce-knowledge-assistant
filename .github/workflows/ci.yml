@@ -1,0 +1,21 @@
+name: verify
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install ".[dev]"
+      - run: python -m pyflakes src scripts tests
+      - run: python -m compileall -q src scripts tests
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/demo.py
+      - run: python scripts/http_smoke.py
+      - run: docker build -t portfolio:ci .
+      - run: docker run --rm portfolio:ci python scripts/demo.py
