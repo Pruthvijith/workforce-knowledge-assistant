@@ -1,0 +1,156 @@
+{
+  "split": "holdout",
+  "total": 18,
+  "correct": 17,
+  "answerable": 13,
+  "top1_correct": 12,
+  "mean_reciprocal_rank": 0.9230769230769231,
+  "expected_abstentions": 5,
+  "correct_abstentions": 5,
+  "cases": [
+    {
+      "question": "Where can a planner resend an expired invitation?",
+      "support": false,
+      "expected": "staff.activation",
+      "observed": "staff.activation",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "Who approves a shift swap after employees accept?",
+      "support": false,
+      "expected": "swap.approval",
+      "observed": "swap.approval",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "How do employees change display language?",
+      "support": false,
+      "expected": "staff.locale",
+      "observed": "staff.locale",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "When do late approvals enter the payroll export?",
+      "support": false,
+      "expected": "export.cutoff",
+      "observed": "export.cutoff",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "How do I download a previous payroll export?",
+      "support": false,
+      "expected": "export.repeat",
+      "observed": "export.repeat",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "What happens to an unpublished draft schedule?",
+      "support": false,
+      "expected": "roster.draft",
+      "observed": "roster.draft",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "How do I correct a missed clock entry?",
+      "support": false,
+      "expected": "clock.correction",
+      "observed": "clock.correction",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "How can a planner unlock a locked planning period?",
+      "support": false,
+      "expected": "plan.lock",
+      "observed": "plan.lock",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "How do I withdraw a pending swap?",
+      "support": false,
+      "expected": "swap.cancel",
+      "observed": "swap.cancel",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "Where are queued clock entries stored during an outage?",
+      "support": false,
+      "expected": "clock.offline",
+      "observed": "clock.offline",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "How can support reconcile delayed terminal batches?",
+      "support": true,
+      "expected": "internal.reconcile",
+      "observed": "internal.reconcile",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "Which revision do we use to rebuild the search index?",
+      "support": true,
+      "expected": "internal.reindex",
+      "observed": "internal.reindex",
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "question": "How can support reconcile delayed terminal batches?",
+      "support": false,
+      "expected": null,
+      "observed": null,
+      "rank": null,
+      "correct": true
+    },
+    {
+      "question": "How do I rebuild the search index?",
+      "support": false,
+      "expected": null,
+      "observed": null,
+      "rank": null,
+      "correct": true
+    },
+    {
+      "question": "What is the price of bananas?",
+      "support": false,
+      "expected": null,
+      "observed": null,
+      "rank": null,
+      "correct": true
+    },
+    {
+      "question": "Where is the childcare subsidy form?",
+      "support": false,
+      "expected": null,
+      "observed": null,
+      "rank": null,
+      "correct": true
+    },
+    {
+      "question": "How do I submit mileage claims?",
+      "support": false,
+      "expected": null,
+      "observed": null,
+      "rank": null,
+      "correct": true
+    },
+    {
+      "question": "How can I retract a holiday application?",
+      "support": false,
+      "expected": "leave.withdraw",
+      "observed": null,
+      "rank": null,
+      "correct": false
+    }
+  ]
+}

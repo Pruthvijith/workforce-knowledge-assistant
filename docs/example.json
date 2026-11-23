@@ -1,0 +1,40 @@
+{
+  "metrics": {
+    "split": "holdout",
+    "total": 18,
+    "correct": 17,
+    "answerable": 13,
+    "top1_correct": 12,
+    "mean_reciprocal_rank": 0.9230769230769231,
+    "expected_abstentions": 5,
+    "correct_abstentions": 5
+  },
+  "misses": [
+    {
+      "question": "How can I retract a holiday application?",
+      "support": false,
+      "expected": "leave.withdraw",
+      "observed": null,
+      "rank": null,
+      "correct": false
+    }
+  ],
+  "responses": [
+    {
+      "status": "answered",
+      "reason": null,
+      "citation": "clock.correction",
+      "answer": "Submit a time correction for a missed clock entry with the actual start or finish time. A supervisor reviews the correction.",
+      "mode": "extractive",
+      "latency_ms": 0.136
+    },
+    {
+      "status": "abstained",
+      "reason": "insufficient_evidence",
+      "citation": null,
+      "answer": null,
+      "mode": "extractive",
+      "latency_ms": 0.128
+    }
+  ]
+}
